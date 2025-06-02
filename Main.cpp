@@ -7,9 +7,9 @@ int main() {
     srand(time(NULL));
     int computer = rand() % 3 + 1;
     int user = 0;
-    std::string roc = "1) 👊️Rock\n";
-    std::string pap = "2) ✋Paper\n";
-    std::string sci = "3) ✌Scissors\n";
+    std::string roc = "1) Rock\n";
+    std::string pap = "2) Paper\n";
+    std::string sci = "3) Scissors\n";
     std::cout << "====================\n";
     std::cout << "rock paper scissors!\n";
     std::cout << "====================\n";
